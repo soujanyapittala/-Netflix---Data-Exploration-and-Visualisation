@@ -7,19 +7,27 @@ Netflix Content Strategy Analysis using EDA and visualization to uncover trends 
 To answer critical strategic questions:
 
 What type of content should Netflix prioritize (Movies vs TV Shows)?
+
 Which genres consistently perform well?
+
 Which countries present expansion opportunities?
+
 When is the optimal time to release content?
 
 📂 Dataset
 Netflix Movies & TV Shows dataset (~10,000+ records)
+
 Key features: Type, Genre, Country, Release Year, Cast, Director, Duration
 
 🧠 Methodology
 Data Cleaning (missing values, duplicates)
+
 Feature Engineering (unnesting multi-value columns like cast, country, genre)
+
 Exploratory Data Analysis (EDA)
+
 Trend & Pattern Analysis
+
 Data Visualization (Matplotlib, Seaborn)
 
 📊 Key Insights
