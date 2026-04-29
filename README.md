@@ -1,60 +1,113 @@
-# -Netflix---Data-Exploration-and-Visualisation
+📊 Netflix Content Analysis & Business Insights
 
-Netflix Content Strategy Analysis using EDA and visualization to uncover trends in movies vs TV shows, genres, countries, and release patterns. Focused on deriving actionable insights to guide content production, market expansion, and data-driven decision-making.
+📌 Project Overview
 
+This project focuses on analyzing Netflix’s content dataset to understand patterns in content distribution, growth trends, and audience targeting.
 
-🎯 Business Objective:
+The objective is to move beyond basic exploration and derive insights that can support content strategy and business decisions.
 
-To answer critical strategic questions:
+🎯 Objectives
 
-What type of content should Netflix prioritize (Movies vs TV Shows)?
+Analyze the distribution of Movies and TV Shows
 
-Which genres consistently perform well?
+Identify trends in content addition over time
 
-Which countries present expansion opportunities?
+Understand country-wise content production
 
-When is the optimal time to release content?
+Explore genre and rating patterns
 
-📂 Dataset:
+Derive insights relevant to Netflix’s business strategy
 
-Netflix Movies & TV Shows dataset (~10,000+ records)
+📂 Dataset Description
 
-Key features: Type, Genre, Country, Release Year, Cast, Director, Duration
+The dataset contains ~8800 titles available on Netflix, including both Movies and TV Shows.
 
-🧠 Methodology:
+Key features include:
 
-Data Cleaning (missing values, duplicates)
+Content type (Movie / TV Show)
 
-Feature Engineering (unnesting multi-value columns like cast, country, genre)
+Title, Director, Cast
 
-Exploratory Data Analysis (EDA)
+Country of production
 
-Trend & Pattern Analysis
+Release year and date added
 
-Data Visualization (Matplotlib, Seaborn)
+Rating and duration
 
-📊 Key Insights:
+Genre categories
 
-📈 Shift Toward TV Shows: Post-2015, Netflix shows a clear increase in TV Show additions, indicating a strategic move toward long-form content.
+🛠️ Tools & Technologies
 
-🌍 Content Concentration: A large share of content is produced in a few countries, leaving multiple regions underrepresented.
+Python
 
-🎭 Genre Stability: Certain genres consistently dominate, suggesting predictable audience demand.
+Pandas, NumPy
 
-⏳ Growth Phase: Rapid increase in content additions after 2015 reflects aggressive platform expansion.
-
-💡 Business Recommendations:
-
-Prioritize TV Show production to improve long-term user retention
-
-Invest in regional content to capture untapped markets
-
-Focus on proven genres while testing niche categories selectively
-
-Align content release timing with observed peak periods
-
-🛠️ Tech Stack:
-
-Python (Pandas, NumPy)
 Matplotlib, Seaborn
-Jupyter Notebook
+
+🔧 Data Preprocessing
+
+Converted categorical variables for efficient analysis
+
+Extracted year_added and month_added from date
+
+Identified and assessed missing values
+
+Split and expanded multi-value columns such as:
+
+cast
+
+director
+
+country
+
+This step was important to ensure accurate aggregation and analysis.
+
+🔍 Exploratory Data Analysis
+1. Content Distribution
+Movies form the majority of the dataset
+TV Shows, although fewer, show increasing presence
+2. Trend Analysis
+Significant growth in content addition observed after 2015
+Peak additions occur between 2017–2020
+3. Country-wise Analysis
+
+Top contributing countries:
+
+United States
+India
+United Kingdom
+
+This indicates a mix of global dominance and regional expansion.
+
+4. Genre Analysis
+
+Frequently occurring genres:
+
+Drama
+Comedy
+International content
+
+These genres dominate across both Movies and TV Shows.
+
+5. Rating Analysis
+Most content falls under TV-MA and TV-14
+Indicates a strong focus on adult and young adult audiences
+6. Duration Analysis
+Most movies are between 80–120 minutes
+Outliers exist but represent valid long-form or short content
+
+📈 Key Insights
+
+Netflix’s content strategy shows a shift toward TV Shows, likely to improve user retention
+Content expansion accelerated post-2015, aligning with global market growth
+Heavy reliance on US content, with increasing investment in regional markets like India
+Focus on mature and emotionally engaging genres such as Drama and Comedy
+Standardization in movie duration suggests consistency in content format
+
+💡 Business Recommendations
+
+Increase investment in TV Shows and limited series formats
+Expand localized content production in high-growth regions
+Continue focusing on high-performing genres
+Leverage data to test new content formats before scaling
+Strengthen collaborations with consistently performing creators
