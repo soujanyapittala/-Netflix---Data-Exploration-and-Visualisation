@@ -33,6 +33,7 @@ Prioritize TV Show production to improve long-term user retention
 Invest in regional content to capture untapped markets
 Focus on proven genres while testing niche categories selectively
 Align content release timing with observed peak periods
+
 🛠️ Tech Stack
 Python (Pandas, NumPy)
 Matplotlib, Seaborn
